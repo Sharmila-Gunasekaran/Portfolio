@@ -1,0 +1,242 @@
+#home{
+    width:100%;
+    min-height:550px;
+    background-color: white;
+    color:rgb(214, 163, 163);
+    position: relative;
+}
+#nav a{
+    font-size: 22px !important;
+    padding: 5px 20px;
+    font-family: Courgette;
+    color:white !important;
+}
+#nav a:hover{
+    background-color:rgb(233, 228, 228);
+    border-radius: 30px;
+    color:rgb(54, 24, 24) !important;
+}
+#nav{
+    background-color: rgb(165, 126, 126);
+}
+#intro{
+    font-family: Tourney;
+    width:60%;
+    padding:20px;
+    font-weight: 900;
+}
+#homecontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding:0px 30px;
+}
+#work{
+    background-image: linear-gradient(to right, rgb(165, 126, 126), rgb(180, 166, 166));
+    border-radius: 30px;
+    padding:5px 0;
+    border:none;
+    color:white;
+    font-family: Lobster;
+    font-weight: 600;
+    font-size: 19px;
+    box-shadow: 3px 3px 5px rgb(102, 87, 87);
+}
+#work a{    
+    color:rgb(54, 24, 24) !important;
+    text-decoration-line: none;
+}
+#about{
+    width:98%;
+    font-family: Courgette;
+    min-height: 500px;
+    background-color: rgb(165, 126, 126);
+    color:whitesmoke;
+    margin:2% 0;
+    padding:30px;
+    margin:1%;
+}
+#aboutcontent{
+    width:65%;
+    min-height: 500px;
+}
+#aboutmain{
+    width:100%;
+    display: flex;
+    min-height: 500px;
+    justify-content: space-between;
+}
+#aboutside{
+    width: 30%;
+    box-shadow: inset 2px 2px 45px 10px rgb(202, 177, 177);
+    border-radius: 30px;
+    min-height: 400px;
+    padding:20px;
+    font-size: 20px;
+    word-wrap: break-word;
+    text-align: center;
+    color:rgb(223, 210, 210);
+}
+#aboutside a{
+    text-decoration-line: none;
+    color:rgb(223, 210, 210);
+    word-wrap: break-word;
+    white-space: no-wrap;
+}
+#aboutcontent button, .buttonweb{
+    background-image: linear-gradient(to right, rgb(207, 181, 181), rgb(180, 166, 166));
+    border-radius: 30px;
+    padding:10px 0;
+    border:none;
+    font-family: Lobster;
+    font-weight: 200;
+    font-size: 19px;
+    box-shadow: 2px 2px 7px rgb(122, 113, 113);
+}
+#aboutcontent a{
+    color:whitesmoke;
+}
+#skills{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:5%;
+    font-family: Courgette;
+    font-weight: 700;
+    color:rgb(54, 24, 24);
+    justify-content: center;
+}
+#technical{
+    width:75%;
+    min-height:400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#soft{
+    min-height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#technical div{
+    height:100px; width:100px;
+    box-shadow: inset 3px 3px 35px 5px rgb(207, 181, 181);
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    margin-bottom: 2%;
+}
+#soft div{
+    min-height:35px;
+    width:200px;
+    word-wrap: break-word;
+    border-radius: 30px;
+    box-shadow: inset 3px 3px 35px rgb(207, 181, 181);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Courgette;
+    font-weight: 700;
+    /* color:rgb(54, 24, 24); */
+    margin-bottom: 2%;
+    padding:q0px;
+}
+#technical aside{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+meter{
+    max-width: 250px; 
+    min-width:200px;
+    height: 40px;
+    margin-top:9%;
+}
+meter::-webkit-meter-bar {
+    background: white;
+}
+meter::-webkit-meter-optimum-value {
+    background: rgb(165, 126, 126); 
+}
+#projects{
+    margin-top: 5%;
+}
+.buttonweb{
+    padding:5px 20px;
+    color:rgb(66, 38, 38);
+    border:1px solid rgb(66, 38, 38);
+}
+#cardbody a{
+    text-decoration-line: none;
+}
+#cardbody{
+    background-image: linear-gradient(to right, rgb(167, 144, 144), rgb(211, 195, 195));
+}
+.card{
+    box-shadow: 5px 3px 8px rgb(136, 126, 126);
+    color:rgb(66, 38, 38);
+    font-family: Lobster;
+    letter-spacing: 1.5px;
+    height:auto;
+}
+#showMoreButton1, #showMoreButton2, #showMoreButton3, #showMoreButton4, form button{
+    border:none;
+    color:rgb(66, 38, 38);
+    background-image: linear-gradient(to right, rgb(207, 181, 181), rgb(180, 166, 166));
+    border-radius: 30px;
+    border:1px solid rgb(66, 38, 38);
+    padding:5px 5px;
+}
+form input, form textarea{
+    width:80%;
+    border-radius: 30px;
+    padding:7px;
+    border:none;
+    background-color: rgb(241, 236, 229);
+}
+form{
+    width:45%;
+    box-shadow: 3px 3px 10px grey;
+    padding:35px 10px;
+    min-height:450px;
+    margin:3% 0;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(153, 121, 121), rgb(211, 195, 195));
+    font-family: Lobster;
+    color:rgb(66, 38, 38);
+}
+#contform{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image:url('images/connect.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contside{
+    font-family: Courgette;
+    color:whitesmoke;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+form button{
+    padding:5px 25px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    box-shadow: 3px 3px 5px grey;
+}
+#contside h1::first-letter{
+    color:rgb(190, 148, 148);
+    font-weight: 800;
+}
