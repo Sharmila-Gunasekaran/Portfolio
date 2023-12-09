@@ -67,7 +67,7 @@
 <h4>Now, my focus is on Frontend Web Development, where I merge technical expertise with a keen eye for user-centric design. I don't just build websites; I craft engaging and responsive digital solutions.</h4>
 <br/>
 <h4>Explore my portfolio and discover how I bring ideas to life in the digital realm.</h4><br/>
-<center><button id="work" style="padding:5px 10px;"><a href='https://drive.google.com/file/d/1YNolLmctfvTyR0V60EVgAz0z1Co53nZ1/view?usp=sharing' target="_blank">My Resume</a></button></center>
+<center><button id="work" style="padding:5px 10px;"><a href='https://drive.google.com/file/d/1gT_zyzZRs0nvVXWlTuLPiZqn9SqE9BvG/view?usp=drive_link' target="_blank">My Resume</a></button></center>
 </div>
 
 <div id="aboutside">
